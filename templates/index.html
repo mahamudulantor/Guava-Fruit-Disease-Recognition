@@ -1,0 +1,26 @@
+{% extends "import.html" %} 
+{% block content %}
+
+<center>
+<br><p style="font-size: 20; color:  black;">THIS AI ENGINE WILL HELP TO DETECT DISEASE (A.PHYTOPTHORA, B.ROOT, C.SCAB) FROM GUAVA FRUIT</p><br>
+<p style="font-size: 20; color: black;"> UPLOAD PHOTO OF AFFECTED GUAVA FRUIT</p><br>
+
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+         <input type="file" name="file" class="btn btn-success" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+
+    <div class="image-section" style="display:none;">
+         <img id="imagePreview"  class="img-responsive" src="#" style="width:300px;height:300px;"/><br><br>
+         <div>
+            <button type="button" class="btn btn-info btn-lg " id="btn-predict">Predict!</button>
+         </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+</center><br><br>
+{% endblock %}
