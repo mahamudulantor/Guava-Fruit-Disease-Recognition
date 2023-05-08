@@ -1,1 +1,0 @@
-# Guava-Fruit-Disease-Recognition
