@@ -22,5 +22,8 @@ Height : 120 Pixels.
 <img src="/utils/Guava Images.jpg" width="600" height="300"/><br>
 A.PHYTOPTHORA; B.ROOT; C.SCAB
 
+## Dataset Link
+https://doi.org/10.34740/KAGGLE/DSV/5767765
+
 
 
